@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Web Clon</title>
+    <link rel="icon" type="image/png" sizes="180x180" href="/Practica 2/Media/icono_pestana.png">
+    <link rel="stylesheet" href="/Practica 2/CSS/styles.css">
+</head>
+<body>
+
+    <div class="app">
+        <!-- Sidebar con los chats -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="whats-green-icon">
+                    <a href="#main-screen">
+                        <img src="/Practica 2/Media/whatsapp_logo.png" alt="whatsapp-icon">
+                    </a>
+                    <div class="chat-title-text">
+                        <span>Chats</span>
+                    </div>
+                </div>
+                <div class="header-icons">
+                    <img src="/Practica 2/Media/new_chat_icon.png" alt="new chat">
+                    <img src="/Practica 2/Media/filter_chats_icon.png" alt="filter_chats">
+                </div>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Busca un chat o inicia uno nuevo.">
+            </div>
+
+            <!-- Lista de Chats -->
+            <div class="chat-list">
+                <a href="#chat1">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user1.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Mama</span>
+                                <span class="chat-time">16:46</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>pero el problema es que de la...</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat2">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user2.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Abuela</span>
+                                <span class="chat-time">16:27</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>Ok</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat3">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user3.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Yo (tú)</span>
+                                <span class="chat-time">16:11</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>🖼️Foto</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat4">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user4.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Helen🥳</span>
+                                <span class="chat-time">16:01</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>👍😅</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat5">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user5.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Judiiit</span>
+                                <span class="chat-time">16:11</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>sii, creo que si</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat6">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user6.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Gonzaa 🏆🇦🇷</span>
+                                <span class="chat-time">15:24</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>Mañana</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat7">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user7.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Arturitoo</span>
+                                <span class="chat-time">15:16</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>🎥Videollamada perdida</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat8">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user8.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Guillem</span>
+                                <span class="chat-time">10:31</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>Que es esto</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat9">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user9.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Titii</span>
+                                <span class="chat-time">09:42</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>Tranquilo bro</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat10">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user10.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Papa</span>
+                                <span class="chat-time">Ayer</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>Cuando llegues cierra la puerta</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat11">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user11.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Arnau Gasulla</span>
+                                <span class="chat-time">Ayer</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>pues no la verdad</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat12">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user12.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Olgazan🫎</span>
+                                <span class="chat-time">Ayer</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>Estaba hablando con el Toni y he...</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat13">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user13.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Jaime🐯</span>
+                                <span class="chat-time">Dom.</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>Bno voy a ir</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat14">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user14.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Leo💪🧡</span>
+                                <span class="chat-time">Dom.</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>Si</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat15">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user15.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Saraitaaa</span>
+                                <span class="chat-time">Dom.</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>a verr</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat16">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user16.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Dani Futbol</span>
+                                <span class="chat-time">Dom.</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>duro seguimos aqui</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat17">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user17.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Uri</span>
+                                <span class="chat-time">Dom.</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>JAJJAAJJAJA</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat18">
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user18.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Albert</span>
+                                <span class="chat-time">Sab.</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>Dale manin</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat19"></a>
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user19.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Marc👨🏾</span>
+                                <span class="chat-time">Sab.</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>vale</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#chat20"></a>
+                    <div class="chat-item">
+                        <img src="/Practica 2/Media/user20.png" alt="user" class="chat-avatar">
+                        <div class="chat-info">
+                            <div class="chat-header">
+                                <span class="chat-name">Yago Monlau</span>
+                                <span class="chat-time">Lun.</span>
+                            </div>
+                            <div class="chat-message">
+                                <span>espero</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <!-- Pantalla principal -->
+        <div class="main-screen" id="main-screen">
+            <div class="main-screen-content">
+                <img src="/Practica 2/Media/whatsapp_logo_gris.png" alt="WhatsApp logo" class="whatsapp-logo">
+                <h1>WhatsApp para Windows</h1>
+                <p>Envía y recibe mensajes sin mantener tu teléfono conectado.</p>
+                <p>Usa WhatsApp en hasta 4 dispositivos vinculados y 1 teléfono a la vez.</p>
+            </div>
+        </div>
+
+        <!-- Chat 1 -->
+        <div class="main-screen" id="chat1">
+            <div class="main-screen-content">
+                <h1>Chat con Mama</h1>
+                <p>Este es el contenido del chat con Mama.</p>
+            </div>
+        </div>
+
+        <!-- Chat 2 -->
+        <div class="main-screen" id="chat2">
+            <div class="main-screen-content">
+                <h1>Chat con Abuela</h1>
+                <p>Este es el contenido del chat con Abuela.</p>
+            </div>
+        </div>
+
+        <!-- Chat 3 -->
+        <div class="main-screen" id="chat3">
+            <div class="main-screen-content">
+                <h1>Chat con Yo (tú)</h1>
+                <p>Este es el contenido del chat contigo mismo.</p>
+            </div>
+        </div>
+
+        <!-- Chat 4 -->
+        <div class="main-screen" id="chat4">
+            <div class="main-screen-content">
+                <h1>Chat con Helen🥳</h1>
+                <p>Este es el contenido del chat con Helen🥳.</p>
+            </div>
+        </div>
+
+        <!-- Chat 5 -->
+        <div class="main-screen" id="chat5">
+            <div class="main-screen-content">
+                <h1>Chat con Judiit</h1>
+                <p>Este es el contenido del chat con Judiit.</p>
+            </div>
+        </div>
+
+        <!-- Chat 6 -->
+        <div class="main-screen" id="chat6">
+            <div class="main-screen-content">
+                <h1>Chat con Gonzaa🏆🇦🇷</h1>
+                <p>Este es el contenido del chat con Gonzaa🏆🇦🇷.</p>
+            </div>
+        </div>
+
+        <!-- Chat 7 -->
+        <div class="main-screen" id="chat7">
+            <div class="main-screen-content">
+                <h1>Chat con Arturitoo</h1>
+                <p>Este es el contenido del chat con Arturitoo.</p>
+            </div>
+        </div>
+
+        <!-- Chat 8 -->
+        <div class="main-screen" id="chat8">
+            <div class="main-screen-content">
+                <h1>Chat con Guillem</h1>
+                <p>Este es el contenido del chat con Guillem.</p>
+            </div>
+        </div>
+
+        <!-- Chat 9 -->
+        <div class="main-screen" id="chat9">
+            <div class="main-screen-content">
+                <h1>Chat con Titii</h1>
+                <p>Este es el contenido del chat con Titii.</p>
+            </div>
+        </div>
+
+        <!-- Chat 10 -->
+        <div class="main-screen" id="chat10">
+            <div class="main-screen-content">
+                <h1>Chat con Papa</h1>
+                <p>Este es el contenido del chat con Papa.</p>
+            </div>
+        </div>
+
+        <!-- Chat 11 -->
+        <div class="main-screen" id="chat11">
+            <div class="main-screen-content">
+                <h1>Chat con Arnau Gasulla</h1>
+                <p>Este es el contenido del chat con Arnau Gasulla.</p>
+            </div>
+        </div>
+
+        <!-- Chat 12 -->
+        <div class="main-screen" id="chat12">
+            <div class="main-screen-content">
+                <h1>Chat con Olgazan🫎</h1>
+                <p>Este es el contenido del chat con Olgazan🫎.</p>
+            </div>
+        </div>
+
+        <!-- Chat 13 -->
+        <div class="main-screen" id="chat13">
+            <div class="main-screen-content">
+                <h1>Chat con Jaime🐯</h1>
+                <p>Este es el contenido del chat con Jaime🐯.</p>
+            </div>
+        </div>
+
+        <!-- Chat 14 -->
+        <div class="main-screen" id="chat14">
+            <div class="main-screen-content">
+                <h1>Chat con Leo💪🧡</h1>
+                <p>Este es el contenido del chat con Leo💪🧡.</p>
+            </div>
+        </div>
+        <!-- Chat 15 -->
+        <div class="main-screen" id="chat15">
+            <div class="main-screen-content">
+                <h1>Chat con Saritaaa</h1>
+                <p>Este es el contenido del chat con Saritaaa.</p>
+            </div>
+        </div>
+        <!-- Chat 16 -->
+        <div class="main-screen" id="chat16">
+            <div class="main-screen-content">
+                <h1>Chat con Dani Futbol</h1>
+                <p>Este es el contenido del chat con Dani Futbol.</p>
+            </div>
+        </div>
+        <!-- Chat 17 -->
+        <div class="main-screen" id="chat17">
+            <div class="main-screen-content">
+                <h1>Chat con Uri</h1>
+                <p>Este es el contenido del chat con Uri.</p>
+            </div>
+        </div>
+        <!-- Chat 18 -->
+        <div class="main-screen" id="chat18">
+            <div class="main-screen-content">
+                <h1>Chat con Albert</h1>
+                <p>Este es el contenido del chat con Albert.</p>
+            </div>
+        </div>
+        <!-- Chat 19 -->
+        <div class="main-screen" id="chat19">
+            <div class="main-screen-content">
+                <h1>Chat con Marc👨🏾</h1>
+                <p>Este es el contenido del chat con Marc👨🏾.</p>
+            </div>
+        </div>
+        <!-- Chat 20 -->
+        <div class="main-screen" id="chat20">
+            <div class="main-screen-content">
+                <h1>Chat con Yago Monlau</h1>
+                <p>Este es el contenido del chat con Yago Monlau.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
